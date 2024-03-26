@@ -5,6 +5,7 @@ use log::{error, info, warn, LevelFilter};
 use new_project::trace::mempool_watching;
 use tokio;
 
+// setup logger using fern dispatch
 pub fn setup_logger() -> Result<()> {
     let colors = ColoredLevelConfig {
         trace: Color::Cyan,
