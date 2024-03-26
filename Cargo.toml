@@ -1,0 +1,20 @@
+[package]
+name = "new-project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.81"
+fern = {version = "0.6.2", features = ["colored"]}
+log = "0.4.21"
+chrono = "0.4.35"
+tokio = {version="1.36.0", features=["full"]}
+dotenv = "0.15.0"
+cfmms = "0.6.2"
+ethers = {version = "2.0.14", features=["ws"]}
+rand = "0.8.5"
+dashmap = "5.5.3"
+tokio-stream = "0.1.15"
+ethers-core = "2.0.14"
